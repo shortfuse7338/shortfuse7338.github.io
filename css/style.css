@@ -1,3 +1,13 @@
-header{
-    background-color: yellow;
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, yellow, orange, #00bfff);
+    color: white;
+}
+h1 {
+    color: black;
+}
+
+h2 {
+    color: black;
 }
