@@ -1,13 +1,19 @@
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, yellow, orange, #00bfff);
-    color: white;
+    background-image: url("../image/woodbark.jpg");
+}
+
+body{
+    background: #f5deb3;
+}
+strong {
+    color: lightgray;
 }
 h1 {
-    color: black;
+    color: lightgray;
 }
 
 h3 {
-    color: black;
+    color: dodgerblue;
 }
