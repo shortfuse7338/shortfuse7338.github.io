@@ -1,19 +1,37 @@
-.jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: url("../image/woodbark.jpg");
+@font-face {
+    font-family: bubblefont;
+    src: url(https://www.1001fonts.com/stampy-font.html?text=Home)
 }
-
+header {
+    height: 200px;
+    background-image: url("../image/vogue\ marine\ center.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 680px;
+    padding-top: 210px;
+    
+}
 body{
-    background: #f5deb3;
-}
-strong {
-    color: lightgray;
-}
-h1 {
-    color: lightgray;
+    background: yellow;
+    font-family: "Open Sans", sans-serif; }
+
+.vertical-menu{
+    width: 200px;
 }
 
-h3 {
-    color: dodgerblue;
-}
+.vertical-menu a {
+    background-color: yellow;
+    color: black;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: orange;
+  }
+  
+  .vertical-menu a.active {
+    color: black;
+    font-family: bubblefont;
+  }
