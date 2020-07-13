@@ -1,37 +1,21 @@
-@font-face {
-    font-family: bubblefont;
-    src: url(https://www.1001fonts.com/stampy-font.html?text=Home)
-}
-header {
-    height: 200px;
-    background-image: url("../image/vogue\ marine\ center.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 680px;
-    padding-top: 210px;
-    
+.jumbotron-fluid{
+  background-image: url("../image/vogue\ marine\ center.jpg");
 }
 body{
     background: yellow;
     font-family: "Open Sans", sans-serif; }
 
-.vertical-menu{
-    width: 200px;
+.navbar{
+  background-color: orange;
+  color: black;
+  font-family:'Bungee Inline', cursive; ;
+  text-align: center;
 }
-
-.vertical-menu a {
-    background-color: yellow;
-    color: black;
-    display: block;
-    padding: 20px;
-    text-decoration: none;
-  }
+header {
+  height: 200px;
+  background-image: url("../image/vogue\ marine\ center.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 680px;
   
-  .vertical-menu a:hover {
-    background-color: orange;
-  }
-  
-  .vertical-menu a.active {
-    color: black;
-    font-family: bubblefont;
-  }
+}
