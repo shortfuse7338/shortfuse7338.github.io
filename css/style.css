@@ -1,3 +1,7 @@
+.jumbotron {
+    justify-content: center;
+    background-color: yellow;
+  }
 body{
     background: yellow;
     font-family: "Open Sans", sans-serif; }
@@ -7,12 +11,4 @@ body{
   color: black;
   font-family:'Bungee Inline', cursive; ;
   text-align: center;
-}
-header {
-  height: 200px;
-  background-image: url("../image/vogue\ marine\ center.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 680px;
-  
 }
