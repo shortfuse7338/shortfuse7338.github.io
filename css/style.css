@@ -12,3 +12,11 @@ body{
   font-family:'Bungee Inline', cursive; ;
   text-align: center;
 }
+
+strong{
+  color: blue;
+}
+
+.maps {
+  text-align: center;
+}
