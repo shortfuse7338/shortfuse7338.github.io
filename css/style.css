@@ -8,9 +8,9 @@ body{
 
 .navbar{
   background-color: orange;
-  color: black;
   font-family:'Bungee Inline', cursive; ;
   text-align: center;
+  font-size: larger;
 }
 
 strong{
@@ -23,5 +23,17 @@ strong{
 
 .site-footer {
   background-color: yellow;
-  
+}
+
+.navbar-text {
+  color: blue;
+}
+
+.site-footer {
+  background-color: orange;
+  font-size: larger;
+}
+
+.breadcrumb {
+  background-color: lightblue;
 }
